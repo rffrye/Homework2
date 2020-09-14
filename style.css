@@ -1,13 +1,120 @@
-h1 {
-margin: 50px;
-
+body {
+    /* background-color: #f5f1f1; */
+    background-image: url("https://savageuniversal.com/wp-content/uploads/2015/05/1-whitebrick-update-1-1000x1000.jpg");
+    padding: 25px;
+    background-repeat: repeat;
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-.headshot {
-    border: 10px;
+#navbar {
+    background-color: #445161;
+}
+
+#headshot {
+    margin-top: 5px;
+    margin-right: 15px;
+    border: 5px;
     border-style: solid;
     border-color: #445161;
-    max-width: 300px;
-    max-height: 600px;
+    max-width: 25%;
+    float: left; 
 }
+  
+  .card {
+    background-color: rgba(187, 187, 187, 0.75);
+    margin: 20px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .title {
+  color: #445161;
+  font-size: 20px;
+  font-weight: normal;
+  }
+  
+  .button {
+    margin-top: 30px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #445161;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  /* Contact.html styling */
+
+  
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(187, 187, 187, 0.75);
+    padding: 20px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
 

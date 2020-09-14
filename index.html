@@ -13,13 +13,13 @@
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Randall Frye</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button >
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto" >
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home/About <span class="sr-only">(current)</span></a>
             </li>
@@ -32,23 +32,31 @@
           </ul>
         </div>
       </nav>
-
-      <!--ABOUT ME-->
-      <div class="container">
+         
+        <div class="card">
           <div class="row">
             <div class="col-12">
-                  <h1>About Me</h1>
+            <img id="headshot" src="Headshot2.jpeg" alt="Randall">
+                <h3 style=" font-weight: 200;">Randall Frye</h3>
+                  <h4 class="title">Aspiring Web Developer</h4>
+                  <p style= "padding: 5px; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni architecto vel, iste quas accusamus impedit placeat saepe ratione libero pariatur error! Nulla exercitationem rerum minima optio numquam corrupti alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quas suscipit est quos repellendus ad at sunt illum, rerum ex numquam cum veritatis tempora, temporibus cupiditate. Repudiandae reiciendis nisi in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum, odit eum, totam magni autem deleniti rerum fuga fugiat facere corporis vel sequi voluptates sapiente velit adipisci at aspernatur architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis unde eos velit qui itaque in, iure sequi. Recusandae aut eligendi iusto placeat nobis fugiat laboriosam blanditiis natus laborum enim?</p>
+                  <h4 class="title">Find Me On</h4>
+                    <ul style="font-size: 15px;">
+                      <li>Instagram: <a href="https://www.instagram.com/rffrye_designs/" target="_blank">@rffrye_designs</a>
+                      </li>
+                      <li>Git Hub: <a href="https://github.com/rffrye" target="_blank">@rffrye</a>
+
+                      </li>
+                    </ul>
             </div>
           </div>
           <div class="row">
-            <div class="col-4">
-                <img class="headshot" src="Headshot.jpeg" alt="Randall Frye">
-            </div>
-            <div class="col-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo amet tempore dolorem animi illo voluptate eos! Minima necessitatibus fuga itaque suscipit nulla labore pariatur tempora nostrum! Enim rerum sequi illum.</p>
-            </div>
+              <div class="col-12">
+                <a href="contact.html"><button class="button">Contact Me</button></a>
+              </div>
           </div>
-      </div>
+        </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
