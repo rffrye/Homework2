@@ -91,11 +91,16 @@ input[type=text], select, textarea {
   }
 
   .containerfoot {
-    margin-top: 30px;
-    background-color: rgba(187, 187, 187, 0.75);
+    margin-top: 30px;;
+    background-color: rgba(48, 62, 87, 0.9);
     padding: 20px;
-    float: none;
     text-align: center;
+  }
+
+  .textfoot{
+      color: whitesmoke;
+      opacity: 60%;
+      
   }
   
   /* Create two columns that float next to eachother */
