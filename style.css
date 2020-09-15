@@ -42,6 +42,11 @@ body {
       padding-left: 20px;
       font-size: 15px;
   }
+
+  li{
+    width: 100px;
+
+  }
   
   .button {
     margin-top: 30px;
@@ -54,6 +59,7 @@ body {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    border-radius: 5px;
   }
   
   .button:hover {
@@ -110,6 +116,11 @@ input[type=text], select, textarea {
     margin-top: 6px;
     padding: 10px;
     color: #445161;
+  }
+
+  .buttonlink{
+    background-color: #445161;
+    color: whitesmoke;
   }
    
   #code{
